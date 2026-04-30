@@ -100,7 +100,7 @@ export default function ProductCard({ product }: Props) {
         {/* Add to Cart */}
         <button
           onClick={handleAddToCart}
-          style={{ backgroundColor: "Blue" }}
+          style={{ color: "#f97316", backgroundColor: "#a855f7" }}
           className={
             "w-full flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl text-sm font-semibold transition-all duration-200 " +
             (added
