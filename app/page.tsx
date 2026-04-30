@@ -69,7 +69,7 @@ export default function HomePage() {
   return (
     <main>
       <HeroBanner />
-      <SaleSection />
+      <SaleSection shopNowStyle={{ backgroundColor: "#ef4444" }} />
       <ProductGrid />
       <NewsletterSection />
       <Footer />

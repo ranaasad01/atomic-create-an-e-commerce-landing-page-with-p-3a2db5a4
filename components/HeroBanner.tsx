@@ -35,6 +35,7 @@ export default function HeroBanner() {
               <a
                 href="#products"
                 className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-500 text-white font-semibold px-8 py-3.5 rounded-xl transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5"
+                style={{ backgroundColor: '#ef4444' }}
               >
                 Shop Now
                 <ArrowRight className="w-4 h-4" />
