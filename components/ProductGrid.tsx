@@ -32,7 +32,7 @@ export default function ProductGrid() {
       {filtered.length > 0 ? (
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
           {filtered.map((product, index) => (
-            <ProductCard key={product.id} product={product} style={index === 3 ? { backgroundColor: "Red" } : undefined} />
+            <ProductCard key={product.id} product={product} style={index === 4 ? { backgroundColor: "Blue" } : index === 3 ? { backgroundColor: "Red" } : undefined} />
           ))}
         </div>
       ) : (
