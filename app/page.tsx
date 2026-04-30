@@ -34,7 +34,7 @@ function Footer() {
               <a href="#" className="w-8 h-8 bg-slate-800 hover:bg-indigo-600 rounded-lg flex items-center justify-center transition-colors" style={{ color: "#f97316", backgroundColor: "#a855f7" }}>
                 <Github className="w-4 h-4" />
               </a>
-              <a href="#" className="w-8 h-8 bg-slate-800 hover:bg-indigo-600 rounded-lg flex items-center justify-center transition-colors">
+              <a href="#" className="w-8 h-8 bg-slate-800 hover:bg-indigo-600 rounded-lg flex items-center justify-center transition-colors" style={{ color: "#f97316" }}>
                 <Facebook className="w-4 h-4" />
               </a>
             </div>

@@ -86,7 +86,7 @@ export default function ProductCard({ product }: Props) {
         <StarRating rating={product.rating} reviewCount={product.reviewCount} />
 
         {/* Price */}
-        <div className="flex items-center gap-2 mt-3 mb-4">
+        <div className="flex items-center gap-2 mt-3 mb-4" style={{ color: "#f97316" }}>
           <span className="text-lg font-bold text-slate-900">
             ${product.price.toFixed(2)}
           </span>
@@ -100,7 +100,6 @@ export default function ProductCard({ product }: Props) {
         {/* Add to Cart */}
         <button
           onClick={handleAddToCart}
-          style={{ color: "#f97316", backgroundColor: "#a855f7" }}
           className={
             "w-full flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl text-sm font-semibold transition-all duration-200 " +
             (added
