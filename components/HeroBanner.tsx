@@ -21,7 +21,7 @@ export default function HeroBanner() {
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight mb-6">
-              Discover Products{" "}
+              Discover the new Products{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-amber-400">
                 You&apos;ll Love
               </span>
