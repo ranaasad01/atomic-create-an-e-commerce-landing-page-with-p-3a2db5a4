@@ -50,7 +50,7 @@ export default function HeroBanner() {
 
             {/* Social proof */}
             <div className="mt-10 flex items-center gap-6 justify-center lg:justify-start">
-              <div className="text-center">
+              <div className="text-center" style={{ color: '#22c55e', backgroundColor: '#ef4444' }}>
                 <div className="text-2xl font-bold text-white">50K+</div>
                 <div className="text-xs text-slate-400 mt-0.5">Happy Customers</div>
               </div>

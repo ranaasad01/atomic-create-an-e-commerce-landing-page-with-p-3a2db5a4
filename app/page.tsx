@@ -69,7 +69,7 @@ export default function HomePage() {
   return (
     <main>
       <HeroBanner />
-      <SaleSection shopNowStyle={{ backgroundColor: "#ef4444" }} />
+      <SaleSection shopNowStyle={{ backgroundColor: "#ef4444" }} targetDivStyle={{ color: "#22c55e", backgroundColor: "#ef4444" }} />
       <ProductGrid />
       <NewsletterSection />
       <Footer />
