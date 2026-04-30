@@ -60,7 +60,7 @@ export default function HeroBanner() {
               </div>
               <div className="w-px h-10 bg-slate-700" />
               <div className="text-center">
-                <div className="text-2xl font-bold text-white">500+</div>
+                <div className="text-2xl font-bold text-white">500K+</div>
                 <div className="text-xs text-slate-400 mt-0.5">Products</div>
               </div>
             </div>
